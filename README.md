@@ -1,25 +1,3 @@
-ReadMe!
-
-Our code is designed by a crawler that makes use of beautifulsoup, and crawls
-and parses multiple sites as it goes over the specifications. The program
-indexes the documents and loads them into files, and stores them in an 
-html folder. A search can also be done to look up words from within the 
-documents, and see what documents contain which word. It also displays how
-many documents hold that word. For example, at 20 documents, if you type 
-in University, I recieveced 10 responses.
-
-	To run this program, make sure that ther is no html folder already 
-present in the directory, open cmd prompt, preferably on windows(unsure 
-if it will work elsewhere.), and navigate to the file path for this project. 
-Run either python crawlerFoolery.py, or python3 crawlerFoolery.py to start 
-the project.The crawler can also take additional arguments: python3 
-<name-of-the-file> <seed-file> <number-of-pages> <number-of-hops> Let the 
-program crawl and scrape the data from 20 sites, starting from the seedFile. 
-Upon completion, enter a word to search in the elasticsearch indexed files, 
-and watch as it searches and returns the files with that word, if any exist, 
-and rates them accoding to elasticsearch. The program ends on it's own as this 
-finishes.
-
 ## Team member 1 - Steven Joseph
 ## Team member 2 - Omar Hernandez 
 ## Team member 3 - Hridya Antony
